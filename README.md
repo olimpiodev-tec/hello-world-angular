@@ -1,59 +1,64 @@
-# HelloWorldAngular
+# 👋 Hello World Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.5.
+![Badge](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![Badge](https://img.shields.io/badge/angular-v16-red)
+![License](https://img.shields.io/github/license/olimpiodev-tec/hello-world-angular)
 
-## Development server
+Bem-vindo ao **Hello World Angular**!  
+Este repositório foi criado com o objetivo de ensinar **os primeiros passos com Angular** por meio de pequenos e didáticos componentes reutilizáveis. Ideal para quem está começando e deseja aprender na prática!
 
-To start a local development server, run:
+---
+
+## 🎯 Objetivos
+
+- Compreender a estrutura de um projeto Angular
+- Criar e reutilizar componentes
+- Aprender sobre data binding, diretivas (`*ngIf`, `*ngFor`, `ngStyle`), eventos e consumo de API
+- Desenvolver confiança para criar aplicações Angular
+
+---
+
+## 🧩 Componentes do Projeto
+
+O projeto contém **5 componentes principais**, cada um com um propósito pedagógico específico:
+
+| Componente | Propósito |
+|-----------|-----------|
+| 🔢 `Contador` | Demonstra a manipulação de eventos com botões para incrementar e decrementar um valor |
+| 💬 `Mensagem` | Ensina o uso da diretiva `*ngIf` para exibir ou ocultar conteúdos |
+| 📱 `Apps` | Demonstra o uso da diretiva `*ngFor` para listar uma coleção de aplicativos favoritos |
+| 📊 `Média` | Calcula a média do aluno e usa `ngStyle` para aplicar cores conforme a situação (aprovado/reprovado) |
+| 📮 `Cep` | Realiza busca de endereço por CEP consumindo uma API externa (viaCEP) |
+
+---
+
+## 📸 Prévia (em breve)
+
+> Adicione capturas de tela aqui para mostrar cada componente em ação.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- [Angular](https://angular.io/)
+- [TypeScript](https://www.typescriptlang.org/)
+- HTML5 + CSS3
+
+---
+
+## ▶️ Como Executar Localmente
 
 ```bash
+# Clone o repositório
+git clone https://github.com/olimpiodev-tec/hello-world-angular.git
+
+# Acesse a pasta do projeto
+cd hello-world-angular
+
+# Instale as dependências
+npm install
+
+# Execute o servidor de desenvolvimento
 ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+# Acesse em http://localhost:4200
