@@ -1,0 +1,14 @@
+div {
+    display: inline-flex;
+}
+
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+button {
+    width: 70px;
+    font-size: 30px;
+}

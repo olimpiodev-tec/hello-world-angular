@@ -1,0 +1,13 @@
+<h1>Aprendendo a usar If no Angular com Mensagem</h1>
+
+<div>
+    <button (click)="mostrarMensagem(1)">Mostrar primeira mensagem</button>
+    <button (click)="mostrarMensagem(2)">Mostrar segunda mensagem</button>
+    <button (click)="mostrarMensagem(3)">Mostrar terceira mensagem</button>
+</div>
+
+<div>
+    <p *ngIf="mensagemAtual == 1">Bom dia, hoje estamos muito felizes.</p>
+    <p *ngIf="mensagemAtual == 2">Boa tarde, acabamos de almoçar e estamos com sono.</p>
+    <p *ngIf="mensagemAtual == 3">Boa noite, hoje o dia foi 10. Agora vou carregar as baterias.</p>
+</div>

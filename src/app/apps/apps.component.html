@@ -1,0 +1,10 @@
+<h1>Aprendendo a For no Angular com Lista de Apps</h1>
+
+<p>Meus aplicativos favoritos</p>
+
+<ul>
+    <li *ngFor="let app of meusApps">
+        {{ app.nome }}
+        <a href="{{ app.url }}" target="_blank">abrir app</a>
+    </li>
+</ul>

@@ -1,0 +1,11 @@
+.pagina {
+    display: block;
+    text-align: center;
+}
+
+a {
+    font-size: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 10px;
+}

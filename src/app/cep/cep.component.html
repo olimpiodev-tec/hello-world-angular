@@ -1,0 +1,11 @@
+<h1>Aprendendo a usar Http no Angular com CEP</h1>
+
+<p>Digite o CEP: <input type="text" placeholder="Somente números" #cep (keydown.enter)="buscarCep(cep.value)"></p>
+<p>
+    <button (click)="buscarCep(cep.value)">Buscar</button>    
+</p>
+
+<p>Logradouro: {{ informacoesCep.logradouro }}</p>
+<p>Bairro: {{ informacoesCep.bairro }}</p>
+<p>Localidade: {{ informacoesCep.localidade }}</p>
+<p>UF: {{ informacoesCep.uf }}</p>

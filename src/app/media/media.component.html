@@ -1,0 +1,9 @@
+<h1>Aprendendo a usar NgStyle no Angular com Média</h1>
+
+<p>Aluno: <input type="text" [(ngModel)]="aluno.nome"></p>
+<p>Nota p1: <input type="number" [(ngModel)]="aluno.notaP1"></p>
+<p>Nota p2: <input type="number" [(ngModel)]="aluno.notaP2"></p>
+<button (click)="calcularMedia()">Calcular</button>
+<p>Resumo</p> 
+<p [ngStyle]="{ color: aluno.media > 5 ? 'green' : 'red' }">O aluno {{ aluno.nome }} está {{ aluno.situacao}}</p>
+<p>Suas notas foram: {{ aluno.notaP1 }}, {{ aluno.notaP2 }}, média {{ aluno.media }}</p>
